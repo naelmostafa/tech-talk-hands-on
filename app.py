@@ -14,4 +14,4 @@ def process():
     for d in data:
         if d["active"]:
             result = calc(d["value"], 10)
-            print("Processed:", result)  # bad practice: print instead of logger
+            print("Processed:", result) 
